@@ -36,7 +36,7 @@ typedef struct binary_tree_s heap_t;
 typedef struct levelorder_queue_s
 {
 	binary_tree_t *node;
-	struct levelorder_queue-s *next;
+	struct levelorder_queue_s *next;
 } levelorder_queue_t;
 
 /* Printing helper function */
